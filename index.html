@@ -33,7 +33,7 @@
     <!-- header -->
 
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
         <nav class="header-nav">
           <a href="./index.html" class="logo header-logo"
             >Web<span class="logo-part">Studio</span></a
@@ -43,7 +43,7 @@
             <li class="menu-list-item">
               <a
                 href="./index.html"
-                class="menu-list-link"
+                class="menu-list-link current"
                 id="menu-list-studio"
                 >Studio</a
               >
@@ -78,6 +78,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -85,7 +90,7 @@
 
     <main>
       <!-- section hero -->
-      <section class="hero">
+      <section class="hero hidden">
         <!--
         Effective Solutions for Your Business
         -->
@@ -97,7 +102,7 @@
       <!-- endsection hero -->
 
       <!-- section advantages -->
-      <section class="advantages">
+      <section class="advantages hidden">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
 
@@ -159,7 +164,7 @@
       <!-- endsection advantages -->
 
       <!-- section advantages -->
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -337,7 +342,7 @@
       <!-- endsection advantages -->
 
       <!-- section portfolio -->
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-main-title">Our Portfolio</h2>
 
@@ -462,7 +467,7 @@
     </main>
 
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container">
         <div class="footer-logo-container">
           <a href="./index.html" class="logo footer-logo"
@@ -539,7 +544,7 @@
     <!-- endfooter -->
 
     <!-- modal -->
-    <div class="modal-container">
+    <div class="modal-container hidden">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
