@@ -62,10 +62,7 @@
   transform: scaleX(1);
 }
 
-.menu-list {
-  gap: 40px;
-  display: flex;
-}
+
 
 .contacts {
   font-style: normal;
@@ -211,7 +208,6 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  text-align: center;
 }
 
 .socials-list {
