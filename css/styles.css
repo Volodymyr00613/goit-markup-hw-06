@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -428,7 +428,7 @@ color: #434455;
 /* advantages */
 
 .advantages {
-  padding: 96px 0;
+  padding: 96px 16px;
 }
 
 .advantages-list {
@@ -465,9 +465,10 @@ font-size: 16px;
 
 @media screen and (min-width: 768px) {
   .advantages {
-      padding: 96px 0;
-      max-width: 736px;
+      max-width: 768px;
+      margin: 0 auto;
     }
+
   .advantages-list {
     gap: 72px 24px;
     }
@@ -487,7 +488,7 @@ font-size: 16px;
 .team {
   background-color: #f4f4fd;
   padding: 96px 0;
-}
+ }
 
 .team-list {
   display: flex;
@@ -515,7 +516,6 @@ line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
@@ -578,6 +578,7 @@ font-weight: 500;
     .team-list {
       gap: 64px 24px;
       max-width: 552px;
+      margin: 0 auto;
     }
 
   
