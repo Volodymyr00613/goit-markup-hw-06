@@ -653,6 +653,15 @@ font-weight: 500;
   color: #434455;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+      gap: 72px 24px;
+  }
+    .portfolio-list-item {
+     width: calc((100% - 24px) / 2);
+    }
+}
+
 /* footer */
 
 .footer {
@@ -668,7 +677,7 @@ font-weight: 500;
  }
 
 .footer-logo-container {
-  margin-bottom: 16px;
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -687,9 +696,8 @@ font-weight: 500;
 
 .footer-logo {
   display: inline-block;
-  margin: 0 auto;
-    
- }
+  margin: 0 102px 16px;
+    }
 
 
  .footer-socials {
@@ -808,4 +816,18 @@ font-weight: 500;
 
 .subscribe-icon {
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+.footer-container {
+  justify-content: space-between;
+ align-items: flex-start; 
+   max-width: 768px;
+   gap: 72px 24px;
+  
+}
+.footer {
+  background: #2e2f42;
+  padding: 96px 108px;
+}
 }
