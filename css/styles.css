@@ -1012,23 +1012,7 @@ flex-wrap: nowrap;
   padding: 72px 27px 24px 5px;
 }
 
-.close-btn {
-  display: flex;
-  position: absolute;
-  top: 24px;
-  right: 35px;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .close-btn:hover,
 .close-btn:focus {
@@ -1037,9 +1021,6 @@ flex-wrap: nowrap;
   fill: #ffffff;
 }
 
-.close-btn-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-title {
   font-weight: 500;
@@ -1168,4 +1149,18 @@ flex-wrap: nowrap;
   display: block;
   height: 56px;
   min-width: 169px;
+      margin: 0 auto;
+    }
+
+
+@media screen and (min-width: 768px) {
+  .modal {
+ width: 408px;
+      min-height: 584px;
+      padding: 72px 24px 24px 24px;
+    }
+        .feedback-input {
+          width: 360px;
+        }
+                
 }
