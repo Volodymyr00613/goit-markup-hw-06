@@ -354,9 +354,7 @@ color: #434455;
 /* hero */
 
 .hero {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 96px;
+    margin: 0 auto;
     background: #2e2f42;
     padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -368,7 +366,7 @@ color: #434455;
     background-size: cover;
 }
 
-@media (min-resolution: 192dpi) {
+@media (min-resolution: 2x) {
 .hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
@@ -415,13 +413,12 @@ color: #434455;
 .hero {
     padding: 112px 0;
     max-width: 768px;
-    margin-bottom: 96px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
         url(../images/people-office-tab.jpg);
    }
 
-     @media (min-resolution: 192dpi) {
+     @media (min-resolution: 2x) {
        .hero {
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)),
@@ -441,13 +438,12 @@ color: #434455;
  .hero {
   padding: 188px 0;
     max-width: 1440px;
-    margin-bottom: 120px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
  }
 
-     @media (min-resolution: 192dpi) {
+     @media (min-resolution: 2x) {
        .hero {
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)),
@@ -463,9 +459,8 @@ color: #434455;
 
 .advantages {
   max-width: 288px;
- margin-left: auto;
- margin-right: auto;
- margin-bottom: 98px;
+ margin: 0 auto;
+ padding: 96px 0 92px;
 }
 
 .advantages-list {
@@ -503,7 +498,7 @@ font-size: 16px;
 @media screen and (min-width: 768px) {
   .advantages {
       max-width: 768px;
-      margin-bottom: 96px;
+      padding: 96px 0;
     }
 
   .advantages-list {
@@ -522,8 +517,7 @@ font-size: 16px;
 
 @media screen and (min-width: 1158px) {
 .advantages {
-  padding: 0;
-   margin-bottom: 120px;
+  padding: 120px 0;
    max-width: 1158px;
 }
 .advantages-list {
@@ -562,7 +556,7 @@ font-size: 16px;
 .team {
   background-color: #f4f4fd;
   padding: 96px 0;
-  margin-bottom: 100px;
+  margin: 0 auto;
  }
 
 .team-list {
@@ -645,12 +639,8 @@ font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
-  .team {
-       margin-bottom: 96px;
-     }
-
-
-    .team-list {
+ 
+ .team-list {
       gap: 64px 24px;
       max-width: 552px;
       margin: 0 auto;
@@ -668,8 +658,7 @@ font-weight: 500;
 
     @media screen and (min-width: 1158px) {
 .team {
-     margin-bottom: 120px;
-      padding: 120px 156px;
+      padding: 120px 0;
       
   }
     .team-list {
@@ -685,7 +674,8 @@ font-weight: 500;
 /* portfolio */
 
 .portfolio {
- margin-bottom: 96px;
+ margin: 0 auto;
+ padding: 100px 0;
  }
 
 .portfolio-main-title {
@@ -743,6 +733,9 @@ font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
+  .portfolio {
+    padding: 96px 0;
+  }
   .portfolio-list {
       gap: 72px 24px;
   }
@@ -753,7 +746,7 @@ font-weight: 500;
 
 @media screen and (min-width: 1158px) {
   .portfolio {
-      margin-bottom: 120px;
+      padding: 120px 0;
     }
   .portfolio-list {
       gap: 48px 24px;
@@ -798,6 +791,7 @@ font-weight: 500;
 .footer {
   background: #2e2f42;
   padding: 96px 0;
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -960,7 +954,6 @@ font-weight: 500;
 }
 .footer {
   background: #2e2f42;
-  padding: 96px 108px;
   }
 .footer-logo-container {
   margin-bottom: 0;
@@ -993,10 +986,8 @@ font-weight: 500;
 
 @media screen and (min-width: 1158px) {
   .footer {
-      padding: 100px 156px;
-      max-width: 1440px;
-      margin: 0 auto;
-    }
+      padding: 100px 0;
+       }
 .footer-container {
 flex-wrap: nowrap;
   max-width: 1158px;
